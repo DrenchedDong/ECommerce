@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import dongting.bwei.com.ecommerce.base.BaseMvpActivity;
-import dongting.bwei.com.ecommerce.permisssion.PermissionActivity;
+import dongting.bwei.com.ecommerce.permisssion.PermissionSimpleActivity;
 import dongting.bwei.com.ecommerce.presenter.SplashPresenter;
 import dongting.bwei.com.ecommerce.view.SplashView;
 
@@ -31,7 +31,7 @@ public class SplashActivity extends BaseMvpActivity<SplashView,SplashPresenter> 
         };
         timer.schedule(timerTask,2000);*/
 
-        startActivity(new Intent(SplashActivity.this, PermissionActivity.class));
+        startActivity(new Intent(SplashActivity.this, PermissionSimpleActivity.class));
         finish();
     }
 
