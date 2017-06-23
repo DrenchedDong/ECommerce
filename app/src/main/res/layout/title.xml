@@ -6,6 +6,7 @@
     >
 
     <ImageView
+        android:clickable="true"
         android:layout_weight="1"
         android:id="@+id/title_scan"
         android:layout_width="30dp"
@@ -25,6 +26,7 @@
             />
 
     <ImageView
+        android:clickable="true"
         android:layout_weight="1"
         android:id="@+id/title_msg"
         android:layout_width="30dp"

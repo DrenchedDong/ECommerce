@@ -34,6 +34,10 @@
         <activity android:name=".base.BaseMvpActivity" />
         <activity android:name=".activitys.TitleSearchActivity" />
         <activity android:name=".activitys.TitleMsgActivity"></activity>
+        <activity android:name=".permisssion.PermissionActivity"/>
+
+        <activity android:name=".permisssion.PermissionSimpleActivity"/>
+
     </application>
 
 </manifest>
