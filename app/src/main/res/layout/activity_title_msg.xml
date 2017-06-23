@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_title_msg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/btn_back"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:id="@+id/titlemsg_back"/>
+
+        <TextView
+           android:gravity="center"
+            android:textSize="25sp"
+            android:text="登录"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cwhite"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/tab_normal_textcolor"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="账号"/>
+
+            <EditText
+                android:textColor="@color/graywhite"
+                android:layout_weight="6"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="手机号/邮箱/用户名/会员卡"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/tab_normal_textcolor"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="密码"/>
+
+            <EditText
+                android:textColor="@color/graywhite"
+                android:layout_weight="6"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="请输入6-20位易购密码"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:background="@color/graywhite"
+        android:textColor="@color/title_search_textcolor"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="登录"/>
+
+    <TextView
+        android:layout_marginLeft="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:background="@color/cwhite"
+        android:textColor="@color/tab_selected_textcolor"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="免费注册"/>
+
+</LinearLayout>

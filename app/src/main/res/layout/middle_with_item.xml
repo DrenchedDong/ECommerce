@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/middle_with_iv"/>
+
+    <LinearLayout
+        android:id="@+id/tuangou_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/cart4_lable_bg_mianyunfei"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:hint="物品名称"
+                android:textColor="@color/tab_normal_textcolor"
+                android:layout_width="match_parent"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:id="@+id/middle_with_title"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:hint="描述"
+            android:textColor="#999999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/middle_with__des"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:text="¥95.00"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="6dp"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tuangou_price"/>
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/cart4_lable_bg_tuangou"/>
+
+        </RelativeLayout>
+
+</LinearLayout>
